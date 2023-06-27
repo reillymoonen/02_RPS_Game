@@ -41,3 +41,5 @@ while user_choice != "xxx":
 
 # Print out choice for comparison purposes
 print("You choose {}".format(user_choice))
+
+# video 21
