@@ -37,5 +37,5 @@ while user_choice != "xxx":
                                  "paper / scissors"
                                  "(or xxx to quit)")
 
-# Print out choice for comparison purposes
-print("You choose {}".format(user_choice))
+    # Print out choice for comparison purposes
+    print("You choose {}".format(user_choice))
