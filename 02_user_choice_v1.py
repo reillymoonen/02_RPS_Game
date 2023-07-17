@@ -1,5 +1,7 @@
 # Functions go here
 def choice_checker(question: object) -> object:
+
+
     error = "Please choose from rock / paper/ " \
             "scissors (or xxx to quit)"
 
@@ -34,5 +36,5 @@ while user_choice != "xxx":
     user_choice = choice_checker("Choose rock / paper/ "
                                  "scissors (r/p/s): ")
 
-# Print out choice for comparison purposes
-print("You choose {}".format(user_choice))
+    # Print out choice for comparison purposes
+    print("You choose {}".format(user_choice))
