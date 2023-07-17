@@ -16,11 +16,11 @@ def choice_checker(question, valid_list, error):
 
         for item in valid_list:
             if response == item[0] or response == item:
-                return response
+                return item
 
         # output error if item not in list
-            print(error)
-            print()
+        print(error)
+        print()
 
 # Main routine goes here
 
@@ -39,7 +39,5 @@ while user_choice != "xxx":
                                  "paper / scissors"
                                  "(or xxx to quit)")
 
-# Print out choice for comparison purposes
-print("You choose {}".format(user_choice))
-
-# video 21
+    # Print out choice for comparison purposes
+    print("You choose {}".format(user_choice))
